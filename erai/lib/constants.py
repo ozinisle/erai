@@ -1,0 +1,27 @@
+
+PI = 3.14
+GRAVITY = 9.8
+
+MIN_LONG_RED_CANDLE_LENGTH_CONFIG = 1
+# minLongGreenCandleLength_config =1
+MIN_LONG_GREEN_CANDLE_LENGTH_CONFIG = 1
+# minVeryLongRedCandleLength_config =1
+MIN_VERY_LONG_RED_CANDLE_LENGTH_CONFIG = 1
+# minVeryLongGreenCandleLength_config =1
+MIN_VERY_LONG_GREEN_CANDLE_LENGTH_CONFIG = 1
+# minLongCandleLength_config=1,
+MIN_LONG_CANDLE_LENGTH = 1
+# relativeOpenCloseValuePercent_config=1
+RELATIVE_OPEN_CLOSE_VALUE_PERCENT_CONFIG = 1
+
+# Adani data related config values
+ADANI_RED_BIG_CANDLE_VALUE = -0.25
+ADANI_GREEN_BIG_CANDLE_VALUE = 0.25
+ADANI_RED_VERY_BIG_CANDLE_VALUE = -0.40000000000000213
+ADANI_GREEN_VERY_BIG_CANDLE_VALUE = 0.4000000000000057
+
+
+# hourly pattern constants
+
+DATA_BATCH = {"hourly": {"RUNNING_DAY_HOURS": 8, "RUNNING_WEEK": 40,
+                         "LAST_2_WEEKS": 80, "LAST_3_WEEKS": 120, "LAST_4_WEEKS": 160, "RUNNING_MONTH": 320}}
